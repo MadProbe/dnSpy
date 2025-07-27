@@ -19,3 +19,6 @@
 	path = Extensions/dnSpy.Debugger/Mono.Debugger.Soft
 	url = https://github.com/dnSpyEx/Mono.Debugger.Soft.git
 	branch = dnSpy
+[submodule "Extensions/ILSpy.Decompiler/NRefactory"]
+	path = Extensions/ILSpy.Decompiler/NRefactory
+	url = https://github.com/dnSpyEx/NRefactory

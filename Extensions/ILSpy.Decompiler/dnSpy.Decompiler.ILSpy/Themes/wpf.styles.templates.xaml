@@ -189,6 +189,8 @@
                     </GroupBox>
                 </StackPanel>
             </GroupBox>
+
+            <ComboBox Margin="0 5 0 0" HorizontalAlignment="Stretch" ItemsSource="{Binding FormattingOptionsArray}" SelectedItem="{Binding SelectedFormattingOptions}" DisplayMemberPath="Text" />
         </StackPanel>
     </DataTemplate>
 
