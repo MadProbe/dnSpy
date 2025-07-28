@@ -26,7 +26,7 @@ using System.Diagnostics;
 using dnSpy.Contracts.Settings;
 using ICSharpCode.Decompiler;
 using ICSharpCode.Decompiler.CSharp;
-using ICSharpCode.NRefactory.CSharp;
+using ICSharpCode.Decompiler.CSharp.OutputVisitor;
 
 namespace dnSpy.Decompiler.ILSpy.Settings {
 	[Export]
