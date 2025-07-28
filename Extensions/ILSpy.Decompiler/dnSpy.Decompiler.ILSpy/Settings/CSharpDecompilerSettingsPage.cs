@@ -24,7 +24,7 @@ using dnSpy.Contracts.MVVM;
 using dnSpy.Contracts.Settings.Dialog;
 using dnSpy.Decompiler.ILSpy.Properties;
 using ICSharpCode.Decompiler;
-using ICSharpCode.NRefactory.CSharp;
+using ICSharpCode.Decompiler.CSharp.OutputVisitor;
 
 namespace dnSpy.Decompiler.ILSpy.Settings {
 	sealed class CSharpDecompilerSettingsPage : AppSettingsPage, IAppSettingsPage2 {
